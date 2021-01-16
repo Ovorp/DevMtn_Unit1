@@ -2,19 +2,9 @@ body {
   background-color: antiquewhite;
 }
 
-/* h1 {
-  height: 50vh;
-  margin: 200px;
-  display: flex;
-  outline: 3px rebeccapurple solid;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* h1 {
-  background-color: yellow;
-} */
+main h1 {
+  color: chartreuse;
+}
 
 header {
   background: sienna;
@@ -23,10 +13,6 @@ header {
 
 span {
   color: red;
-}
-
-.important {
-  background-color: royalblue;
 }
 
 nav {
