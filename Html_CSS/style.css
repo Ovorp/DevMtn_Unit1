@@ -1,3 +1,41 @@
-* {
+/* * {
   background-color: antiquewhite;
+} */
+
+/* h1 {
+  height: 50vh;
+  margin: 200px;
+  display: flex;
+  outline: 3px rebeccapurple solid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* h1 {
+  background-color: yellow;
+} */
+
+header {
+  background: sienna;
+  outline: black 1px solid;
 }
+
+span {
+  color: red;
+}
+
+.important {
+  background-color: royalblue;
+}
+
+nav {
+  background-color: red;
+  outline: seagreen 3px solid;
+}
+#test {
+  background: blueviolet;
+}
+/* li {
+  list-style: none;
+} */
