@@ -1,5 +1,14 @@
+* {
+  box-sizing: inherit;
+}
 body {
   background-color: antiquewhite;
+}
+main {
+  box-sizing: border-box;
+  background-image: url(https://dpa730eaqha29.cloudfront.net/myedmondsnews/wp-content/uploads/2012/09/20120915_Saturday-sunrise.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 main h1 {
@@ -22,6 +31,46 @@ nav {
 #test {
   background: blueviolet;
 }
-/* li {
+li {
   list-style: none;
-} */
+}
+
+.cat-img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px black dashed;
+  margin: 100px;
+}
+
+.cat-img:hover {
+  box-shadow: 0px 10px 13px -7px #000000, 1px 0px 15px 6px rgba(0, 0, 0, 0);
+}
+
+h6:hover,
+section p:hover {
+  color: #89b943;
+}
+
+aside a {
+  font-size: 24px;
+}
+
+a:visited {
+  color: orange;
+}
+
+footer {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: magenta;
+  width: 50vw;
+  height: 25vh;
+}
+
+footer p {
+  outline: red 1px solid;
+  width: 100%;
+  background: white;
+}
